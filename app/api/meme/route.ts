@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   const apiKey = "dcd46c7ed2a34f599d48b25cfc8af570";
   if (!apiKey) {
     console.error("API Key is not set");
